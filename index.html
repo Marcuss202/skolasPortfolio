@@ -48,12 +48,13 @@
 
     <div id="aboutMe" class="parMani">
         <div  class="aboutMeContainer">
+            <h2 class="titleYellow">Par Mani</h2>
             <div class="row">
                 <div class="image fade-in-right">
                     <img class="aboutMeImage" src="./bildes/aboutMe.JPG" width="50%">
                 </div>
                 <div class="textAboutMe">
-                    <h2 class="aboutMeH2 fade-in-left">"Esmu Markuss Ozols - Full stack programmētājs no Latvijas. Mani interesē vairāka veida hobiji kā, piemēram, mūzika, droni, datorbūve, un daudz citiem radošiem hobijiem."</h2>
+                    <h2 class="aboutMeH2 fade-in-left">"Esmu Markuss Ozols - Full stack programmētājs no Latvijas. Mani interesē vairāka veida hobiji kā, piemēram, mūzika, droni, datorbūve, un daudz citi radoši hobiji."</h2>
                 </div>
             </div>
         </div>
@@ -61,20 +62,39 @@
 
     <div id="darbs" class="darbs">
         <div  class="darbsContainer">
+            <h2 class="title">Darbi</h2>
             <div class="gallery">
-                <img width="50%" src="./bildes/VT.png" alt="VT">
-                <img width="50%" src="./bildes/personalWebsite.png" alt="Personal website portfolio">
-                <img width="50%" src="./bildes/BalticChoir.png" alt="Baltic Choir">
+                <a target="_blank" href="https://valmierastehnikums.lv"><img width="30%" src="./bildes/VT.png" alt="VT"></a>
+                <a target="_blank" href="https://balticchoir.com"><img width="30%" src="./bildes/BalticChoir.png" alt="Baltic Choir"></a>
+                <a target="_blank" href="https://ozolsmarkuss.netlify.app"><img width="30%" src="./bildes/personalWebsite.png" alt="Personal website portfolio"></a>
             </div>
         </div>
     </div>
 
-    <footer id="footer">
-        <div class="columbFotter">
-            
+    <footer id="footer" class="footer">
+        <div class="columnFooter">
+            <div class="topCol">
+                <h2 class="titleYellow">Sazinies ar mani</h2>
+                <p class="footerBiggerText">Es ļoti vēlos sazināties ar jums!<br> Tapēc droši rakstiet man uz e-pastu vai sociālajiem tīkliem.</p>
+            </div>
+            <div class="bottomCol">
+                    <div class="block">
+                    <p>Ozols</p>
+                </div>
+                <div class="contactDetails">
+                    <p class="footerText">Email: markussozols@gmail.com</p>
+                    <p class="footerText">Tel: +371 27-123-134</p>
+                </div>
+            </div>
         </div>
-        <div class="columbFotter">
-            
+
+        <div class="formFooter">
+            <form action="mailto:markussozols@gmail.com">
+                <input type="text" name="name" placeholder="Tavs Vārds">
+                <input type="email" name="email" placeholder="Tavs E-pasts">
+                <textarea name="message" placeholder="Tava Ziņa"></textarea>
+                <button type="submit">Sūtīt</button>
+            </form>
         </div>
     </footer>
 </body>
